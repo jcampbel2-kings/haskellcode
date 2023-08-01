@@ -64,3 +64,5 @@ crack xs = encode (-factor) xs
         chitab = [chisqr (rotate n table') table | n <- [0..25]]
         table' = freqs xs 
 
+newfunc :: Num a => a -> a
+newfunc x=x+3
