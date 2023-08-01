@@ -65,4 +65,4 @@ crack xs = encode (-factor) xs
         table' = freqs xs 
 
 newfunc :: Num a => a -> a
-newfunc x=x+3
+newfunc x=x+7
